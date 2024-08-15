@@ -22,7 +22,12 @@ header{
     width: 1170px;
     margin: auto;
 }
-.menu-wraper{
+.section-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,3 +75,20 @@ header{
     opacity: 1;
     visibility: visible;
 } 
+.header-search{
+    position: relative;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.header-search::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+}
+.header-search i{
+    cursor: pointer;
+}
