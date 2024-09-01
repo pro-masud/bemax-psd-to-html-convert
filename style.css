@@ -97,6 +97,9 @@ header{
 /* banner slider start */
 .banner-slider .single-slider{
     padding: 170px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .banner-slider .single-slider .content{
     text-align: center;
