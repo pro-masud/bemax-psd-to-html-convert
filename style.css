@@ -32,6 +32,10 @@ header{
     width: 66.66%;
     padding: 0 15px;
 }
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
 .col-4{
     width: 33.33%;
     padding: 0 15px;
@@ -39,6 +43,15 @@ header{
 .col-12{
     width: 100%;
     padding: 0 15px;
+}
+.black{
+    background-color: #333;
+}
+.section-title.white h2{
+    color: #fff;
+}
+.section-title.white h2::before{
+    background-color: #fff;
 }
 /* Header CSS */
 .section-wraper{
@@ -274,7 +287,7 @@ header{
     text-transform: uppercase;
     margin-bottom: 70px;
 }
-.service-area .section-title h2::before{
+.section-title h2::before{
     content: "";
     position: absolute;
     left: 0;
