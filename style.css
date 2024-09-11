@@ -404,3 +404,27 @@ header{
     margin-top: 6px;
 }
 /* Project section end */
+
+/* why choose us section start */
+.why-choose-us{
+    padding: 70px 0;
+}
+.why-choose-us .video-area{
+    position: relative;
+}
+.why-choose-us .video-area a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 55px;
+    height: 50px;
+    margin: auto;
+}
+
+.why-choose-us .video-area a i{
+    color: #fff;
+    font-size: 55px;
+}
+/* why choose us section end */
