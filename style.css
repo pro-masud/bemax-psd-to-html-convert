@@ -32,6 +32,10 @@ header{
     width: 66.66%;
     padding: 0 15px;
 }
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
 .col-3{
     width: 25%;
     padding: 0 15px;
