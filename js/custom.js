@@ -49,6 +49,7 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:4000,
         animateOut: 'fadeOut',
+        margin:30,
         nav:false,
         dots: false,
         responsive:{

@@ -467,3 +467,14 @@ header{
     background-color: #fff;
     color: #4272d7;
 }
+/* work area section end */
+/* client section start */
+.client-area{
+    padding: 60px 0;
+    background-color: #f2f2f2;
+}
+.client-area .single-client-img img{
+    width: inherit;
+    display: block;
+}
+/* client section end */
