@@ -428,3 +428,42 @@ header{
     font-size: 55px;
 }
 /* why choose us section end */
+.work-area{
+    padding: 180px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.work-content{
+    text-align: center;
+}
+.work-content p{
+    max-width: 520px;
+    width: 100%;
+    margin: auto;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #555555;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.work-content .bemax-btn{
+    display: inline-block;
+    background-color: #4272d7;
+    padding: 10px 40px;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: bold;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 20px;
+    transition: .4s;
+    border-radius: 4px;
+    margin-top: 37px;
+}
+.work-content .bemax-btn:hover{
+    background-color: #fff;
+    color: #4272d7;
+}
