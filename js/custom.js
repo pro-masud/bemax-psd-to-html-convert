@@ -75,4 +75,18 @@ $(document).ready(function(){
         type: 'iframe'
         // other options
       });
+
+      $('.blog-active').owlCarousel({
+        loop:true,
+        nav:true,
+        dots: false,
+        responsive:{
+            0:{
+                items:1
+            },
+            1200:{
+                items:1
+            },
+        }
+    });
 });
