@@ -256,7 +256,7 @@ header{
 }
 .features-area .single-feature-item .feature-content p{
     font-family: "Maven Pro", sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 25px;
     color: #fff;
     font-weight: 400;
@@ -420,6 +420,9 @@ header{
 }
 .why-choose-us .video-area{
     position: relative;
+}
+.why-choose-us .video-area img{
+    width: 100%;
 }
 .why-choose-us .video-area a{
     position: absolute;
