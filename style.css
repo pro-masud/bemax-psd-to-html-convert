@@ -545,3 +545,92 @@ header{
     color: #666666;
     text-decoration: none;
 }
+.blog-active{
+    position: relative;
+}
+.blog-active .owl-nav button{
+    position: absolute;
+    left: 225px;
+    top: -55px;
+    border: 1px solid #999999  !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #999999;
+    text-align: center;
+}
+.blog-active .owl-nav button span{
+    color: #999999;
+    font-weight: bold;
+}
+.blog-active .owl-nav button.owl-next{
+    left: 263px;
+}
+.single-testimonial p{
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Lato";
+}
+.single-testimonial p i{
+    font-size:30px;
+    line-height: 22px;
+    color: #cccccc;
+    font-weight: 700;
+}
+.single-testimonial hr{
+    margin: 20px 0;
+}
+.single-testimonial .client-img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.single-testimonial .client-img a img{
+    width: 50px;
+    height: 50px;
+    border: 50%;
+}
+.testi-info h3{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #555555;
+    font-weight: 700;
+    font-family: "Lato";
+}
+.testi-info h5{
+    font-size: 13px;
+    line-height: 22px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.testimonial-active{
+    position: relative;
+}
+.testimonial-active .owl-nav button{
+    position: absolute;
+    left: 165px;
+    top: -55px;
+    border: 1px solid #999999  !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #999999;
+    text-align: center;
+}
+.testimonial-active .owl-nav button span{
+    color: #999999;
+    font-weight: bold;
+}
+.testimonial-active .owl-nav button.owl-next{
+    left: 203px;
+}
