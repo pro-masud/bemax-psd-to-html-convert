@@ -478,3 +478,39 @@ header{
     display: block;
 }
 /* client section end */
+/* blog section end */
+.blog-area{
+    padding: 80px 0px;
+}
+.blog-wrapper{
+    display: flex;
+    gap: 25px;
+}
+.blog-img{
+    position: relative;
+}
+.blog-img span{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #0c1426;
+    padding: 8px 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+}
+.blog-content h2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.blog-content p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: 400;
+}
